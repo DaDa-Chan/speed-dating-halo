@@ -2,6 +2,7 @@
 plan/
 proposal/
 reference/
+report/
 
 # --- Data ---
 # Track the raw CSV + key (the project pivots on them being reproducible).
