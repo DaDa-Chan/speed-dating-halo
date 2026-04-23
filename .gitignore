@@ -1,0 +1,29 @@
+# --- Internal working materials (kept locally, not pushed) ---
+plan/
+proposal/
+reference/
+
+# --- Data ---
+# Track the raw CSV + key (the project pivots on them being reproducible).
+# Track the parquet-clean output? Often too large — flip if you want it shared.
+data/clean/*.parquet
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Editors / OS ---
+.DS_Store
+.idea/
+.vscode/
+
+# --- Build / outputs ---
+build/
+dist/
