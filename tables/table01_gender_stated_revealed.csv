@@ -1,0 +1,13 @@
+gender,gender_label,trait,stated_weight,revealed_weight,gap
+0,Female,attr,18.5965,28.7693,10.1728
+0,Female,sinc,18.4417,8.8225,-9.6192
+0,Female,intel,21.4335,11.395,-10.0385
+0,Female,fun,17.2621,17.8817,0.6196
+0,Female,amb,12.1657,11.578,-0.5877
+0,Female,shar,12.1004,21.5535,9.453
+1,Male,attr,28.7093,44.6482,15.9389
+1,Male,sinc,16.3112,8.0863,-8.2249
+1,Male,intel,19.8296,3.4559,-16.3737
+1,Male,fun,17.4371,15.9385,-1.4986
+1,Male,amb,7.4774,9.794,2.3166
+1,Male,shar,10.2355,18.0771,7.8416

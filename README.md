@@ -32,7 +32,7 @@ The headline metric across all five stages is the **change in trait coefficients
 ```
 .
 ├── data/
-│   ├── raw/           # Speed Dating Data.csv (195 cols, 8378 rows) + key
+│   ├── raw/           # Speed_Dating_Data.csv (195 cols, 8378 rows) + key
 │   └── clean/         # cleaned.parquet (output of notebook 01)
 ├── notebooks/
 │   ├── 00_data_exploration.ipynb
@@ -53,7 +53,7 @@ The headline metric across all five stages is the **change in trait coefficients
 ## Data
 
 - **Source:** Fisman, Iyengar, Kamenica & Simonson (2006), *QJE*. Distributed via Kaggle as `annavictoria/speed-dating-experiment`.
-- **File:** `data/raw/Speed Dating Data.csv` — 195 columns, 8378 rows, 551 participants across 21 waves. **Must** be loaded with `encoding='latin-1'`.
+- **File:** `data/raw/Speed_Dating_Data.csv` — 195 columns, 8378 rows, 551 participants across 21 waves. **Must** be loaded with `encoding='latin-1'`.
 - **Do not use `speeddating.csv`** (the 123-column preprocessed version on Kaggle): it strips the `iid` / `pid` identifiers needed for participant fixed effects and clustered SEs.
 
 ## Setup
