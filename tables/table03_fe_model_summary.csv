@@ -1,0 +1,2 @@
+model,n_obs,n_entities,rsquared_within,rsquared_between,rsquared_overall
+participant_fe_lpm,5734,434,0.33594662030144495,-1.2453020339655136,-0.6716592526507958

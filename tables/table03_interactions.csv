@@ -1,0 +1,4 @@
+interaction,description,base_attr_coef,base_attr_se,base_attr_pvalue,inter_coef,inter_se,inter_pvalue,implied_male_slope,n_obs,note
+attr_x_male,Male vs Female attr slope difference,0.08083357719402107,0.005338689711134129,0.0,0.018851570683427403,0.007550370624548802,0.012563034555433727,0.09968514787744848,5734,gender main effect absorbed by EntityEffects
+attr_x_attr1_1,Stated attractiveness weight moderates revealed attr slope,0.08977791136913685,0.004217439428665162,0.0,0.0002035887901940219,0.0003214610282531694,0.5265501491120115,,5669,attr1_1 demeaned; rows with missing attr1_1 dropped
+attr_x_samerace,Same-race partner moderates attr slope,0.08566779135420496,0.004761637614284009,0.0,0.010731494116589642,0.005109172386758201,0.035737629162235995,,5734,samerace main effect included; date-level variable
