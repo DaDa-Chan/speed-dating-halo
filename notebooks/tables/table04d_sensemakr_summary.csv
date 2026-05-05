@@ -1,0 +1,3 @@
+model,treatment,benchmark_covariates,attr_coef,attr_clustered_se,RV_q1,RV_alpha05,partial_r2_attr,n_obs,notes
+main,attr,"sinc, intel, fun",0.08647887666080911,0.005443125631169153,0.26989893472770965,0.25096957514300905,0.09072265081849112,5742,Primary model; clustered SE for reporting; plain OLS for Sensemakr
+extended,attr,"gender, samerace, age_diff",0.08592886345306738,0.0053219623852922724,0.26668400715419893,0.24741633001373103,0.08841017620503774,5600,Extended model with demographics; clustered SE for reporting

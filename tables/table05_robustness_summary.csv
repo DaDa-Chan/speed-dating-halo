@@ -1,0 +1,13 @@
+specification,model_type,sample,N,attr_coef_or_AME,attr_SE,attr_pvalue,attr_rank,is_attr_largest,is_attr_top2,CI_low,CI_high,overlaps_baseline_CI,notes
+Baseline LPM (pooled),Pooled LPM,Full,5742,0.086479,0.005443,0.0,1,True,True,0.075811,0.097147,True,From Stage 1 table01_baseline_lpm.csv
+LPM + Participant FE,FE LPM,Full,5734,0.090217,0.004236,0.0,1,True,True,0.081915,0.09852,True,From Stage 3 table03_pooled_vs_fe.csv; clustered by participant
+Male — Pooled LPM,Pooled LPM,Male,2884,0.109224,0.006965,0.0,1,True,True,0.095573,0.122876,True,
+Male — FE LPM,FE LPM,Male,2884,0.102811,0.006303,0.0,1,True,True,0.090458,0.115164,True,
+Female — Pooled LPM,Pooled LPM,Female,2850,0.063848,0.007614,0.0,1,True,True,0.048924,0.078772,True,
+Female — FE LPM,FE LPM,Female,2850,0.077468,0.005319,0.0,1,True,True,0.067042,0.087894,True,
+Excl Wave 5 — Pooled LPM,Pooled LPM,Excl Wave 5,5569,0.086085,0.005587,0.0,1,True,True,0.075133,0.097036,True,
+Excl Wave 5 — FE LPM,FE LPM,Excl Wave 5,5569,0.090676,0.004338,0.0,1,True,True,0.082173,0.099178,True,
+Excl Wave 12 — Pooled LPM,Pooled LPM,Excl Wave 12,5391,0.085556,0.005651,0.0,1,True,True,0.074479,0.096632,True,
+Excl Wave 12 — FE LPM,FE LPM,Excl Wave 12,5391,0.089112,0.004391,0.0,1,True,True,0.080505,0.097719,True,
+Incl Wave 6-9 (revealed),Pooled LPM,Full (all waves),7022,0.089848,0.004879,0.0,1,True,True,0.080285,0.09941,True,Includes Waves 6-9 (1-10 independent scale); iid-clustered SE
+Logistic AME (overall),Logistic AME,Full,5734,0.090461,0.003371,0.0,1,True,True,0.083854,0.097068,True,Average Marginal Effects at='overall'; standard errors (not clustered)
