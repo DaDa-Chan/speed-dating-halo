@@ -44,10 +44,6 @@ The headline metric across all five stages is the **change in trait coefficients
 │   └── 06_stage5_robustness.ipynb
 ├── src/utils/         # Reusable Python helpers imported by the notebooks
 ├── figures/           # Plots produced by the notebooks
-├── report/            # Final written report
-├── plan/              # Internal planning docs (gitignored)
-├── proposal/          # Submitted project proposal (gitignored)
-└── reference/         # Reference papers (gitignored)
 ```
 
 ## Data
